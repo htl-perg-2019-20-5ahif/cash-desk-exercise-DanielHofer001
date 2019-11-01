@@ -37,5 +37,6 @@ namespace CashDesk.Tests
                 await Assert.ThrowsAsync<AlreadyMemberException>(async () => await dal.JoinMemberAsync(memberNumber));
             }
         }
+
     }
 }
